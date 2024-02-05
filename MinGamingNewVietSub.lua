@@ -2491,7 +2491,7 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gojo Hub", HidePremium = false, IntroText = "MinGaming Library", SaveConfig = true, ConfigFolder = "Min Gaming Hub"})
+local Window = OrionLib:MakeWindow({Name = "Gojo Hub", HidePremium = false, IntroText = "Gojo Library", SaveConfig = true, ConfigFolder = "Gojo Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
